@@ -19,6 +19,6 @@ marge_sort_test_result = f"Execution time for marge sort is {
 print(marge_sort_test_result)
 
 timsort_execution_time = timeit.timeit(lambda: sorted(test_arr), number=10)
-timsort_test_result = f"Execution time for timesort is {
+timsort_test_result = f"Execution time for timsort is {
     timsort_execution_time:.5f} sec."
 print(timsort_test_result)
